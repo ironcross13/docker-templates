@@ -6,11 +6,11 @@
 	Subsonic.  Personal music server[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where subsonic will store it's configuration file, database and logs.[br]
-    [b]/media[/b] This is where madsonic will scan for media files.[br][br]
+    [b]/media[/b] This is where subsonic will scan for media files.[br][br]
 	[b]Note[/b] If you wish to use HTTP then please set the Environment Variable "SSL" to "no", otherwise set to "yes" to enable HTTPS.
   </Description>
-  <Registry>https://registry.hub.docker.com/u/binhex/arch-madsonic/</Registry>
-  <GitHub>https:D:/Dropbox/Source/Repos/ICC-Subsonic</GitHub>
+  <Registry>\\192.168.0.150\d\Dropbox\Source\Repos</Registry>
+  <GitHub>\\192.168.0.150\d\Dropbox\Source\Repos\ICC-Subsonic</GitHub>
   <Repository>ICC-Subsonic</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
@@ -49,5 +49,5 @@
   </Data>
   <WebUI>http://[IP]:[PORT:4050]/</WebUI>
   <Banner></Banner>
-  <Icon>D:/Dropbox/Source/Repos/docker-templates/images/subsonic-icon.png</Icon>
+  <Icon>\\192.168.0.150\d\Dropbox\Source\Repos\docker-templates\images\subsonic-icon.png</Icon>
 </Containers>
