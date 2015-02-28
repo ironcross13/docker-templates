@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>ICC-Subsonic</Name>
+  <Description>
+	[b][u][span style='color: #E80000;']Description[/span][/u][/b][br]
+	Subsonic.  Personal music server[br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where subsonic will store it's configuration file, database and logs.[br]
+    [b]/media[/b] This is where madsonic will scan for media files.[br][br]
+	[b]Note[/b] If you wish to use HTTP then please set the Environment Variable "SSL" to "no", otherwise set to "yes" to enable HTTPS.
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/binhex/arch-madsonic/</Registry>
+  <GitHub>https:D:/Dropbox/Source/Repos/ICC-Subsonic</GitHub>
+  <Repository>ICC-Subsonic</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>4040</HostPort>
+        <ContainerPort>4040</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>4050</HostPort>
+        <ContainerPort>4050</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>	  
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>SSL</Name>
+      <Value>yes</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir>path to config</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>path to media</HostDir>
+      <ContainerDir>/media</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>  	
+  </Data>
+  <WebUI>http://[IP]:[PORT:4050]/</WebUI>
+  <Banner></Banner>
+  <Icon>D:/Dropbox/Source/Repos/docker-templates/images/subsonic-icon.png</Icon>
+</Containers>
