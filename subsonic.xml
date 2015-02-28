@@ -9,9 +9,9 @@
     [b]/media[/b] This is where subsonic will scan for media files.[br][br]
 	[b]Note[/b] If you wish to use HTTP then please set the Environment Variable "SSL" to "no", otherwise set to "yes" to enable HTTPS.
   </Description>
-  <Registry>\\192.168.0.150\d\Dropbox\Source\Repos</Registry>
-  <GitHub>\\192.168.0.150\d\Dropbox\Source\Repos\ICC-Subsonic</GitHub>
-  <Repository>ICC-Subsonic</Repository>
+  <Registry>https://registry.hub.docker.com/u/ironcross13/ICC-Subsonic/</Registry>
+  <GitHub>https://github.com/ironcross13/ICC-Subsonic</GitHub>
+  <Repository>ironcross13/ICC-Subsonic</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
@@ -49,5 +49,5 @@
   </Data>
   <WebUI>http://[IP]:[PORT:4050]/</WebUI>
   <Banner></Banner>
-  <Icon>\\192.168.0.150\d\Dropbox\Source\Repos\docker-templates\images\subsonic-icon.png</Icon>
+  <Icon>https://github.com/ironcross13/docker-templates/images/subsonic-icon.png</Icon>
 </Containers>
