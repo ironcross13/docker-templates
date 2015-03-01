@@ -11,7 +11,7 @@
   </Description>
   <Registry>https://registry.hub.docker.com/u/ironcross/icc-subsonic/</Registry>
   <GitHub>https://github.com/ironcross13/icc-subsonic</GitHub>
-  <Repository>ironcross13/icc-subsonic</Repository>
+  <Repository>ironcross/icc-subsonic</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
