@@ -48,6 +48,6 @@
     </Volume>  	
   </Data>
   <WebUI>http://[IP]:[PORT:4050]/</WebUI>
-  <Banner></Banner>
+  <Banner>https://raw.githubusercontent.com/ironcross13/docker-templates/master/ironcross/images/subsonic-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/ironcross13/docker-templates/master/ironcross/images/subsonic-icon.png</Icon>
 </Containers>
