@@ -36,7 +36,7 @@
     </Variable>
 	<Variable>
       <Name>CONTEXT-PATH</Name>
-      <Value></Value>
+      <Value>/</Value>
     </Variable>
 	<Variable>
       <Name>MAX-MEMORY</Name>
