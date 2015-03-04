@@ -35,11 +35,11 @@
       <Value>yes</Value>
     </Variable>
 	<Variable>
-      <Name>CONTEXT-PATH</Name>
+      <Name>CONTEXT_PATH</Name>
       <Value>/</Value>
     </Variable>
 	<Variable>
-      <Name>MAX-MEMORY</Name>
+      <Name>MAX_MEMORY</Name>
       <Value>100</Value>
     </Variable>
   </Environment>    
