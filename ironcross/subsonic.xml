@@ -34,6 +34,14 @@
       <Name>SSL</Name>
       <Value>yes</Value>
     </Variable>
+	<Variable>
+      <Name>CONTEXT-PATH</Name>
+      <Value></Value>
+    </Variable>
+	<Variable>
+      <Name>MAX-MEMORY</Name>
+      <Value>100</Value>
+    </Variable>
   </Environment>    
   <Data>
     <Volume>
@@ -47,7 +55,7 @@
       <Mode>ro</Mode>
     </Volume>  	
   </Data>
-  <WebUI>http://[IP]:[PORT:4050]/</WebUI>
+  <WebUI>https://[IP]:[PORT:4050]/</WebUI>
   <Banner>https://raw.githubusercontent.com/ironcross13/docker-templates/master/ironcross/images/subsonic-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/ironcross13/docker-templates/master/ironcross/images/subsonic-icon.png</Icon>
 </Containers>
